@@ -1,0 +1,319 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+
+}
+
+/* /* @media (max-width:960px){
+      .contentbox4 {
+        display: inline;
+         
+      } 
+    } */
+h2 {
+  font-weight: 500;
+  margin-top: 10px;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-weight: 1000;
+  font-size: 3rem;
+}
+
+.headsection {
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  background-image: url(netflixbackground.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100vw;
+  background-size: max(1200px, 100vw);
+  background-position: center center;
+
+
+}
+
+.headsection .box {
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.74;
+  background-color: rgba(0, 0, 0, 0.963);
+
+  top: 0;
+  position: absolute;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  width: 80%;
+  margin: auto;
+
+  align-items: center;
+  padding: 20px;
+
+  justify-content: space-between;
+  position: relative;
+
+}
+
+.logo {
+  margin-top: 20px;
+  padding-left: 56px;
+  box-shadow: black;
+  width: 150px;
+  height: 80px;
+  color: red;
+  fill: currentColor;
+  display: block;
+}
+
+.clicks button {
+
+  height: 30px;
+
+  margin-left: 25px;
+}
+
+.clicks {
+  margin-left: 250px;
+}
+
+.content {
+
+
+  align-items: center;
+
+  z-index: 1;
+  position: relative;
+
+}
+
+.emailinputbox {
+  background-color: rgba(0, 0, 0, 0.577);
+  height: 80px;
+  width: 30%;
+  font-size: 1rem;
+  padding: 1rem;
+  color: white;
+  height: 1.5rem;
+  position: relative;
+  border: solid 1px white;
+}
+
+.getstarted {
+  margin-left: 20px;
+  height: 60px;
+  width: 200px;
+  padding: 1rem;
+  color: white;
+  background-color: red;
+  font-size: 1.55rem;
+  font-weight: 700;
+  padding: auto;
+  border-radius: 5px;
+  border: none;
+}
+
+
+/* box2*/
+.box2 {
+  background-color: black;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-size: max(1100px,100vw);
+   background-position: center center;
+    
+    */
+}
+
+.box2writings {
+  width: 50%;
+
+}
+
+.television img {
+  z-index: 10;
+}
+
+.television {
+
+  position: relative;
+
+}
+
+.tvvideo {
+  height: 54%;
+  width: 90%;
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  right: 34px;
+
+}
+
+.tvvideo video {
+  height: 100%;
+  width: 100%;
+}
+
+/* box 3 */
+.box3 {
+  background-color: black;
+  height: 80vh;
+  width: 100vw;
+  background-size: max(1100px, 100vw);
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.box3content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+
+.box3writings {
+  width: 100%;
+}
+
+.box3img {
+  position: relative;
+}
+
+.download {
+  background-color: rgba(0, 0, 0, 0.618);
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  left: 130px;
+  width: 60%;
+  height: 6rem;
+
+
+
+}
+
+.downloadwritings {
+  padding: 20px 10px;
+}
+
+.download img {
+
+  height: 6rem;
+}
+
+.loader img {
+  height: 70px;
+  padding-left: 70px;
+
+}
+
+/*box4*/
+
+.box4,.box5 {
+  background-color: black;
+  height: 80vh;
+  width: 100vw;
+  /* background-size: max(1100px,100vw);
+   background-position: center center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contentbox4,
+.contentbox2,.contentbox5 {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+
+.box4writings,.box5writings {
+  width: 50%;
+}
+
+/* .rajmatv{
+    position: relative;
+    width: 50%;
+} */
+.box4video {
+  position: absolute;
+  z-index: 1;
+  height: 50%;
+  width: 70%;
+  top: 40px;
+  right: 100px;
+
+}
+
+.box4video video {
+  height: 100%;
+  width: 100%;
+}
+
+.box4img {
+  position: relative;
+
+}
+
+.box4img img {
+  z-index: 10;
+}
+.endbox{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  /* background-size: max(1100px,100vw);
+   background-position: center center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.endboxcontent{
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+.questions{
+  background-color: rgb(56, 56, 56);
+  height: 80px;
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 9px;
+}
+.questions h1{
+  font-weight: 500;
+}
+ul{
+  color: white;
+}
+footer{
+  background-color: black;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
